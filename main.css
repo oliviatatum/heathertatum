@@ -1,0 +1,24 @@
+h1 {
+    font-family: 'Sniglet', cursive;
+    font-size: 90px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.profilePic {
+    border-radius: 50%;
+    margin-left: 180px;
+    margin-right: auto;
+}
+
+p {
+    margin: 50px;
+}
+
+.bannerImage {
+    width: 100%;
+    height: 100%;
+}
