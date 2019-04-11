@@ -14,6 +14,7 @@ h2 {
 .profilePic {
     border-radius: 50%;
     margin: 25px 25px 25px 120px;
+    width: 50%;
 }
 
 p {
@@ -30,4 +31,8 @@ p {
 .nav-item {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
+}
+
+.card-body {
+    padding: inherit;
 }
