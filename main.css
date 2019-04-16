@@ -1,3 +1,6 @@
+/*----------------------text-------------------------------*/
+
+
 h1 {
     font-family:'Rubik', sans-serif;
     font-size: 85px;
@@ -10,25 +13,35 @@ h1 {
     margin: auto;
 }
 
+.heading {
+    background-color: #fff2fb;
+}
 h2 {
-    font-family:'Rubik', sans-serif;
+    font-family:'Raleway', sans-serif;
     text-align: center;
     margin: inherit;
     margin-top: 15px;
     margin-bottom: 25px;
     
 }
+p  {
+    font-family: 'Raleway', sans-serif;
+}
+a:hover {
+    color:#6c757d;
+}
+
+body {
+    text-align: center;
+}
+
+/*--------------------images-------------------------------*/
+
 
 .profilePic {
     border-radius: 50%;
     margin: 25px 25px 25px 100px;
     width: 50%;
-}
-
-p {
-    font-family: 'Raleway', sans-serif;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
 .bannerImage {
@@ -39,7 +52,14 @@ p {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
 }
-
+.nav-link {
+    padding:0;
+}
+.navbar {
+    padding: inherit;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
 .card-body {
     padding: inherit;
 }
@@ -61,20 +81,15 @@ a {
     padding: inherit;
 }
 
-a:hover {
-    color:#6c757d;
-}
 
-body {
-    text-align: center;
-}
-
+    
 .container-fluid {
     display: flex;
     background-color: #fff2fb;
     width: 100%;
-    margin: none;
-    }
+    margin: inherit;
+    padding: 0;
+}
     
 img {
   width: 100%;
@@ -83,7 +98,7 @@ img {
 .row {
     margin: inherit;
 }
-
+/*--------------------------FontAwesome-------------------------------*/
 .fab {
     padding-right: 15px;
 }
@@ -102,3 +117,26 @@ img {
 .fa-pinterest {
     color:#e60022;
 }
+
+
+/*---------------------------contact page-------------------------------*/
+.contactHeader {
+    margin: auto;
+}
+
+
+@media (min-width:768px) {
+    p {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+@media (min-width:1024px) {
+    p {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+   
+ 
