@@ -29,6 +29,7 @@ p  {
 }
 a:hover {
     color:#6c757d;
+    text-decoration: none;
 }
 
 body {
@@ -43,7 +44,11 @@ body {
     margin: 25px 25px 25px 100px;
     width: 50%;
 }
-
+.lifephoto {
+    border-radius: 50%;
+    margin-top:25px;
+    width: 75%;
+}
 .bannerImage {
     width: 100%;
 }
@@ -91,9 +96,7 @@ a {
     padding: 0;
 }
     
-img {
-  width: 100%;
-}
+
 
 .row {
     margin: inherit;
@@ -138,5 +141,19 @@ img {
         margin-right: 100px;
     }
 }
-   
- 
+
+#timeline {
+    text-align: left;
+}
+
+.timeline-item {
+    margin-left: 25px;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    margin-bottom: inherit;
+}
+.timeline-item:before {
+    content: attr(data-dates);
+
