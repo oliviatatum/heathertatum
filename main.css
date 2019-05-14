@@ -43,6 +43,9 @@ a:hover {
     text-decoration: none;
 }
 
+small {
+    margin-right: 20px;
+}
 
 /*--------------------images-------------------------------*/
 
@@ -84,10 +87,6 @@ a:hover {
 }
 
 .col {
-    padding: inherit;
-}
-
-.col-12 {
     padding: inherit;
 }
 
@@ -136,7 +135,13 @@ a:hover {
     margin: auto;
 }
 
-
+@media (min-width:320px) {
+    p {
+       border-left: 10px;
+       border-right: 10px;
+        
+    }
+}
 @media (min-width:768px) {
     p {
         margin-left: 15px;
