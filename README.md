@@ -11,24 +11,24 @@ This website is to showcase the work of Heather Tatum, an artist (and also my mo
 Although she has a social media presence on Facebook, Instagram, Pinterest and Etsy, she did not have a website dedicated to her and her work, 
 so this site was created to fill that gap.
 
-<h2>Layout of the site</h2>
-
+<h2>Layout of the site and UX</h2>
+<h3>Landing Page</h3>
 On the landing page, there is a short introduction piece and a portrait of the artist. Then in the centre of the page, her most 
 recently listed pieces and three best sellers are displayed, with links to their individual pages on her Etsy site.
 Next to these are some testimonials from previous customers. 
-
+<h3>Header, Footer, and Navigation Bar (featured on all pages for continuity)</h3>
 The header contains the artists name in bold lettering, linking back to the homepage, and has her art featured on either 
 side to form an eyecatching banner. Underneath this is a navigation bar with links to: HOME, ABOUT, MEDIA, SHOP and CONTACT
 pages. All links are to pages within the site, with the exception of the shop link, which takes the user to the artist's Etsy 
 shop in a new tab.
 In the footer there are icons linking to the artist's Facebook, Instagram, Etsy and Pinterest pages. Then the copyright is included.
-
+<h3>About Page</h3>
 The ABOUT page features a timeline of Heather's time as an artist, then a biography with photos.
-
+<h3>Media Page</h3>
 The MEDIA page has a Pinterest widget showing the artist's activity, then a video embedded from Youtube giving a demonstration of her 
 painting. Underneath the video is a Spotify player with Vivaldi, an artist Heather enjoys listening to while she works. Finally on this page
 is a widget from Instagram, featuring photos displaying Heather's art and life.
-
+<h3>Contact Page</h3>
 The CONTACT page has a form for the user to contact Heather directly, for commissions or collaboration requests, or any other inquiries.
 
 
